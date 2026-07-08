@@ -1,0 +1,15 @@
+@Metadata.layer: #CUSTOMER
+annotate view z_b_clnts_lib_cb with
+{
+  @UI.lineItem: [ { position: 10, label: 'ID Cliente' } ]
+  IdCliente;
+
+  @UI.lineItem: [ { position: 20, label: 'Nombre' } ]
+  NombreCliente;
+
+  @UI.lineItem: [ { position: 30, label: 'Apellidos' } ]
+  ApellidoCliente;
+
+  @UI.lineItem: [ { position: 40, label: 'Correo Electrónico' } ]
+  EmailCliente;
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'Servicio UI para Aplicacion de Libros'
+define service Z_UI_LIBROS_CB {
+  expose Z_C_LIBROS_CATEG_CB as LibrosV2;
+  expose z_b_clnts_lib_cb    as ClientesLibro;
+  expose Z_B_CLIENTES_CB     as DatosClientes;
+}
